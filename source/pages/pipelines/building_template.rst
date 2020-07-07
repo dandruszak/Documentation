@@ -41,7 +41,7 @@ Here are examples of using interpolation to create a Docker tag containing the n
   - name: pipeline-service
     serviceRun:
       name: example-service
-      image: "myapp:build-{{ ICE_BUILD_NUMBER }}"
+      image: "myapp:build-{{ ICECI_BUILD_NUMBER }}"
       dockerSecret: dockerhub
 
 
